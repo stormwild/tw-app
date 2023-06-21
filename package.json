@@ -1,16 +1,22 @@
 {
   "name": "tw-app",
+  "private": true,
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
     "start": "vite",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Alexander R. Torrijos <artorrijos@gmail.com> (https://stormwild.github.io/)",
   "license": "MIT",
   "devDependencies": {
+    "typescript": "^5.0.2",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2",
